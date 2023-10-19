@@ -1,0 +1,176 @@
+.project-section {
+  padding: 2rem 0;
+}
+.project__title {
+  font-size: var(--size-2xl);
+  text-transform: capitalize;
+  letter-spacing: var(--letter-space);
+  color: var(--clr-medium);
+  text-transform: uppercase;
+}
+.project__description {
+  max-width: 70ch;
+  font-size: var(--size-xs);
+  color: var(--clr-base);
+  letter-spacing: var(--letter-space-sm);
+  padding: 1rem 0;
+  line-height: var(--wider-sm);
+}
+.project__preview {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0.3rem;
+}
+.project__stack-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--clr-purple);
+}
+.project__icon {
+  font-size: var(--size-sm);
+}
+.project__icon-name {
+  font-size: var(--size-xs);
+}
+.tech__stack {
+  font-size: var(--size-lg);
+  text-transform: capitalize;
+  padding-top: 1rem;
+  text-transform: uppercase;
+}
+.stack-name {
+  color: var(--clr-base);
+  font-size: var(--size-xs);
+  letter-spacing: var(--letter-space-sm);
+  text-transform: uppercase;
+  padding: 0.5rem 0.2rem 0;
+}
+.project__img-box {
+  padding: 1rem 1rem;
+}
+.project__main-img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+.project__purpose-title,
+.project__webstack-title,
+.project__lesson-title,
+.other__projects-title {
+  font-size: var(--size-2xl);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.project__purpose-desc,
+.project__webstack-desc,
+.project__lesson-desc {
+  max-width: 70ch;
+  font-size: var(--size-xs);
+  color: var(--clr-base);
+  line-height: var(--wider-lg);
+  letter-spacing: var(--letter-space-sm);
+}
+.project__webstack-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 1.5rem;
+  background-color: var(--clr-light);
+  border-radius: 1rem;
+  padding: 3rem 1.5rem;
+}
+.project__webstack-title {
+  color: var(--clr-purple);
+}
+.project__webstack-desc {
+  color: var(--clr-navy);
+}
+.webstack__icons {
+  display: flex;
+  gap: 1.5rem;
+}
+.web__icons {
+  font-size: var(--size-3xl);
+  color: var(--clr-purple);
+}
+.project__img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+img {
+  width: 12rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+@media (min-width: 640px) {
+  .project__purpose-title,
+  .project__webstack-title,
+  .project__lesson-title,
+  .other__projects-title {
+    font-size: var(--size-2xl);
+  }
+  .project__purpose-desc,
+  .project__webstack-desc,
+  .project__lesson-desc {
+    font-size: var(--size-sm);
+  }
+  .web__icons {
+    font-size: var(--size-4xl);
+  }
+  .project__img-box {
+    padding: 1.5rem 2rem;
+  }
+  .project__main-img {
+    height: 25rem;
+  }
+  .tech__stack {
+    font-size: var(--size-xl);
+  }
+  .stack-name {
+    font-size: var(--size-sm);
+  }
+}
+
+@media (min-width: 768px) {
+  .project__webstack-section {
+    grid-template-columns: 6fr 6fr;
+  }
+  .project__purpose-title,
+  .project__webstack-title,
+  .project__lesson-title,
+  .other__projects-title {
+    font-size: var(--size-3xl);
+  }
+  .project__purpose-desc,
+  .project__webstack-desc,
+  .project__lesson-desc {
+    font-size: var(--size-sml);
+    line-height: var(--wider-sm);
+  }
+  .web__icons {
+    font-size: var(--size-6xl);
+  }
+  .project__img-box {
+    padding: 2rem 3rem;
+  }
+  .project__main-img {
+    height: 30rem;
+  }
+  .project__title {
+    font-size: var(--size-3xl);
+  }
+  .project__description {
+    font-size: var(--size-sm);
+    line-height: var(--wider-sm);
+  }
+  .project__stack-btn {
+    padding: 0.5rem 1.5rem;
+  }
+}
