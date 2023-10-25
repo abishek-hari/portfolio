@@ -26,6 +26,7 @@ const Projects = () => {
 
   const {
     title,
+    img,
     description,
     project__goal_title,
     project__goal_desc,
@@ -62,7 +63,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='project__img-box project-section'>
-        <img src={PhoneImg} alt={title} className='project__main-img' />
+        <img src={img} alt={title} className='project__main-img' />
       </div>
       <div className='project__purpose-section project-section'>
         <h2 className='project__purpose-title'>{project__goal_title}</h2>

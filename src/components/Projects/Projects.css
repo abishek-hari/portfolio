@@ -99,16 +99,16 @@
   color: var(--clr-purple);
 }
 .project__img-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 img {
-  width: 12rem;
+  width: 100%;
+  height: 20rem;
   border-radius: 1rem;
   object-fit: cover;
 }
-
 @media (min-width: 640px) {
   .project__purpose-title,
   .project__webstack-title,
@@ -172,5 +172,8 @@ img {
   }
   .project__stack-btn {
     padding: 0.5rem 1.5rem;
+  }
+  .project__img-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }

@@ -1,6 +1,6 @@
-import classImg from "./assets/class.jpg";
 import PhoneImg from "./assets/phone.jpg";
-import roadImg from "./assets/road.jpg";
+import ZedenImg from "./assets/zedenImg.png";
+import fitzenImg from "./assets/fitzenImg.png";
 
 export const links = [
   { id: 1, href: "#skills", text: "skills" },
@@ -11,19 +11,19 @@ export const links = [
 export const projects = [
   {
     id: 1,
-    img: PhoneImg,
+    img: ZedenImg,
     title: "Zeden",
     desc: "Zeden is an ecommerce website I developed, focusing on the furniture market and  designed it to be super user-friendly with a clean and easy-to-navigate layout",
   },
   {
     id: 2,
-    img: classImg,
+    img: fitzenImg,
     title: "Fitzen",
     desc: "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users.",
   },
   {
     id: 3,
-    img: roadImg,
+    img: PhoneImg,
     title: "Tasktrack",
     desc: "TaskTrack is a task management website where Users can create, organize, and track their tasks in a visually intuitive way.And users can easily drag and drop them to show their progress or mark them as completed.",
   },
@@ -32,7 +32,7 @@ export const projects = [
 export const singleProject = [
   {
     id: 1,
-    img: PhoneImg,
+    img: ZedenImg,
     title: "Zeden",
     description:
       "Zeden is an ecommerce website I developed, focusing on the furniture market.It's like an online furniture store where you can shop for sofas, beds, and other home furnishings.I designed it to be super user-friendly with a clean and easy-to-navigate layout",
@@ -48,7 +48,7 @@ export const singleProject = [
   },
   {
     id: 2,
-    img: classImg,
+    img: fitzenImg,
     title: "Fitzen",
     description:
       "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users to follow along and get the most out of their workouts.",
@@ -64,7 +64,7 @@ export const singleProject = [
   },
   {
     id: 3,
-    img: roadImg,
+    img: PhoneImg,
     title: "Tasktrack",
     description:
       "TaskTrack is a task management website that's inspired by popular tools like Trello and Jira. Users can create, organize, and track their tasks in a visually intuitive way. The main feature of TaskTrack is its task boards, where tasks are categorized into columns, and users can easily drag and drop them to show their progress or mark them as completed.",
