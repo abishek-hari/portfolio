@@ -10,12 +10,13 @@ const About = () => {
         <div className='about__info-container'>
           <div className='about__left'>
             <p className='about__desc'>
-              I'm a 21-year old frontend developer and designer
+              I'm a 21-year old passionate frontend developer with a strong
+              focus on intuitive design.
             </p>
             <p className='about__desc'>
-              As I've grown as a developer, i've worked with scripcted language
-              and other frameworks and with consistency I have raised my
-              standards for whats expected of any web application
+              I've worked with scripcted language and frameworks and with
+              consistency I have raised my standards for whats expected of any
+              web application
             </p>
             <p className='about__desc'>
               Through these experience, I've had the opportunity to create

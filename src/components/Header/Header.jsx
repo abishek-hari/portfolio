@@ -1,23 +1,18 @@
 import React from "react";
 import "./Header.css";
-import { links } from "../../data";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className='header'>
       <div className='container header__nav'>
-        <h2 className='header__logo'>Abi_.</h2>
-        {/* <div className='header__links'>
-          {links.map((link) => {
-            const { text, id } = link;
-            return (
-              <a key={id} className='header__link'>
-                {text}
-              </a>
-            );
-          })}
-        </div> */}
-        <a href='#' className='herader__link'>
+        <Link to='/' className='header__logo'>
+          A
+        </Link>
+        <a
+          href='https://www.linkedin.com/in/abishekhari09/'
+          className='herader__link'
+        >
           Collab
         </a>
       </div>

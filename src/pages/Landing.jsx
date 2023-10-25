@@ -6,7 +6,7 @@ import {
   Hero,
   Skills,
   Work,
-} from "../components/Components";
+} from "../components/components";
 
 const Landing = () => {
   return (

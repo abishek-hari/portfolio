@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
 import "./Projects.css";
 import PhoneImg from "../../assets/phone.jpg";
-import roadImg from "../../assets/road.jpg";
 import classImg from "../../assets/class.jpg";
 import { projects, singleProject } from "../../data";
 import { useParams, Link } from "react-router-dom";
 import { FaReact, FaAngleDoubleRight } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiDaisyui } from "react-icons/si";
+import { SiRedux, SiTailwindcss } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
@@ -85,7 +84,6 @@ const Projects = () => {
       <div className='project__img-grid project-section'>
         <img src={PhoneImg} alt='' className='grid__first' />
         <img src={classImg} alt='' className='grid__second' />
-        <img src={roadImg} alt='' className='grid__third' />
       </div>
       <div className='project__lessons-section project-section'>
         <h2 className='project__lesson-title'>{project__lesson_title}</h2>

@@ -17,8 +17,8 @@ const Skills = () => {
       </h2>
       <p className='skill__desc'>
         Through my studies, I've gained solid understanding of computer science
-        and web development concepts, and have dedicated a lot of my free time
-        to apply these concepts to real-world scenarios and applications
+        and frontend development concepts, and have dedicated a lot of my free
+        time to apply these concepts to real-world scenarios and applications.
       </p>
       <div className='skills__box'>
         <ul className='skill__info'>

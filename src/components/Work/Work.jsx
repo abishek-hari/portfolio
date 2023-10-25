@@ -11,8 +11,9 @@ const Work = () => {
         What I've been <span>working on </span>
       </h2>
       <p className='work__desc'>
-        I like to stay busy and always have a project in the works.take a look
-        at some of the applications I've dedicated my time to.
+        I've been dedicating my time to building pratical project and my focus
+        has been on honing my skills in frontend development, with a passion for
+        creating user-friendly interfaces.
       </p>
       <div className='work__box'>
         {projects.map((project) => {

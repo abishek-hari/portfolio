@@ -13,19 +13,19 @@ export const projects = [
     id: 1,
     img: PhoneImg,
     title: "Zeden",
-    desc: "I like to stay busy and always have a project in the works.take a look at some of the applications I've dedicated my time to.",
+    desc: "Zeden is an ecommerce website I developed, focusing on the furniture market and  designed it to be super user-friendly with a clean and easy-to-navigate layout",
   },
   {
     id: 2,
     img: classImg,
-    title: "Gez-Fitzone",
-    desc: "I like to stay busy and always have a project in the works.take a look at some of the applications I've dedicated my time to.",
+    title: "Fitzen",
+    desc: "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users.",
   },
   {
     id: 3,
     img: roadImg,
-    title: "travello",
-    desc: "I like to stay busy and always have a project in the works.take a look at some of the applications I've dedicated my time to.",
+    title: "Tasktrack",
+    desc: "TaskTrack is a task management website where Users can create, organize, and track their tasks in a visually intuitive way.And users can easily drag and drop them to show their progress or mark them as completed.",
   },
 ];
 
@@ -35,56 +35,47 @@ export const singleProject = [
     img: PhoneImg,
     title: "Zeden",
     description:
-      "I developed an interactive Furniture E-commerce platform as part of my journey to master front-end development. This project showcases my proficiency in using React, Redux Toolkit, and Tailwind CSS to create a user-friendly, dynamic, and visually appealing online shopping experience.",
+      "Zeden is an ecommerce website I developed, focusing on the furniture market.It's like an online furniture store where you can shop for sofas, beds, and other home furnishings.I designed it to be super user-friendly with a clean and easy-to-navigate layout",
     project__goal_title: "Project Purpose And Goal",
     project__goal_desc:
-      "The primary goal of this project was to design and build a responsive e-commerce website that provides a seamless shopping experience for furniture enthusiasts. I aimed to create an intuitive and visually pleasing platform where users could browse and purchase furniture products. The project's purpose was to develop a real-world application that applies front-end technologies to solve user-centric challenges.",
+      "The primary goal of Zeden was to design and build a responsive e-commerce website that provides a seamless shopping experience.I aimed to create an intuitive platform where users could explore a wide variety of furniture options. The project's purpose was to develop a real-world application that applies front-end technologies to solve user-centric challenges.",
     project__webstack__title: "Web Stack and Explanation",
     project__webstack__desc:
-      "This project was built using a stack of modern web development technologies: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase. Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions. It provided a clear structure for handling application data and user interactions. Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design. It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
-    project__thought_title: "Problems and Thought Process:",
-    project__thought_desc:
-      "Throughout the development of this project, I encountered various challenges and made thoughtful decisions to address them. These included: Designing a responsive layout: Tailwind CSS was utilized to create a responsive design, ensuring that the application is accessible and visually appealing on different devices. State management: I used Redux Toolkit to manage the application's state effectively, enhancing data flow and interaction within the user interface. User experience: Thoughtful consideration was given to the user experience, including implementing features like product search, filtering, and a shopping cart to make the shopping process more convenient.",
+      "For the tech side of things, I used some modern tools to make Zeden work smoothly: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase.Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions.It provided a clear structure for handling application data and user interactions.Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design.It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
     project__lesson_title: "Lessons Learned:",
     project__lesson_desc:
-      "Building this furniture e-commerce project was a valuable learning experience. Some key lessons learned from this project include: Enhanced proficiency in React and Redux Toolkit for creating interactive and data-driven web applications. Gained practical experience in crafting a responsive and visually appealing user interface using Tailwind CSS. Improved problem-solving skills by tackling real-world challenges in e-commerce development, including cart management and product display.",
+      "While working on Zeden, I learned a lot about  development and design. It improved my skills in building user-friendly websites. I became proficient in React and Redux Toolkit, which are important for creating interactive web applications. And by using Tailwind CSS, I got better at making websites look visually appealing and consistent.",
   },
   {
     id: 2,
     img: classImg,
-    title: "Gez-Fitzone",
+    title: "Fitzen",
     description:
-      "I developed an interactive Furniture E-commerce platform as part of my journey to master front-end development. This project showcases my proficiency in using React, Redux Toolkit, and Tailwind CSS to create a user-friendly, dynamic, and visually appealing online shopping experience.",
+      "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users to follow along and get the most out of their workouts.",
     project__goal_title: "Project Purpose And Goal",
     project__goal_desc:
-      "The primary goal of this project was to design and build a responsive e-commerce website that provides a seamless shopping experience for furniture enthusiasts. I aimed to create an intuitive and visually pleasing platform where users could browse and purchase furniture products. The project's purpose was to develop a real-world application that applies front-end technologies to solve user-centric challenges.",
+      "The primary aim of Fitzen is to make fitness accessible to everyone. I wanted to create a platform where people, regardless of their fitness level, could find detailed instructions for exercises, making it simple to get started or advance in their fitness journey. The goal is to empower users with the knowledge they need to maintain a healthy lifestyle.",
     project__webstack__title: "Web Stack and Explanation",
     project__webstack__desc:
-      "This project was built using a stack of modern web development technologies: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase. Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions. It provided a clear structure for handling application data and user interactions. Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design. It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
-    project__thought_title: "Problems and Thought Process:",
-    project__thought_desc:
-      "Throughout the development of this project, I encountered various challenges and made thoughtful decisions to address them. These included: Designing a responsive layout: Tailwind CSS was utilized to create a responsive design, ensuring that the application is accessible and visually appealing on different devices. State management: I used Redux Toolkit to manage the application's state effectively, enhancing data flow and interaction within the user interface. User experience: Thoughtful consideration was given to the user experience, including implementing features like product search, filtering, and a shopping cart to make the shopping process more convenient.",
+      "For the tech side of things, I employed the following technologies to ensure a user-friendly and informative experience: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase.Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions.It provided a clear structure for handling application data and user interactions.Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design.It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
     project__lesson_title: "Lessons Learned:",
     project__lesson_desc:
-      "Building this furniture e-commerce project was a valuable learning experience. Some key lessons learned from this project include: Enhanced proficiency in React and Redux Toolkit for creating interactive and data-driven web applications. Gained practical experience in crafting a responsive and visually appealing user interface using Tailwind CSS. Improved problem-solving skills by tackling real-world challenges in e-commerce development, including cart management and product display.",
+      "During the development of Fitzen, I gained valuable insights into user experience and the importance of providing clear and concise information.I also learned to work with React effectively, improving my skills in creating informative and interactive web applications, which will be valuable for future projects.",
   },
   {
     id: 3,
     img: roadImg,
-    title: "travello",
+    title: "Tasktrack",
     description:
-      "I developed an interactive Furniture E-commerce platform as part of my journey to master front-end development. This project showcases my proficiency in using React, Redux Toolkit, and Tailwind CSS to create a user-friendly, dynamic, and visually appealing online shopping experience.",
+      "TaskTrack is a task management website that's inspired by popular tools like Trello and Jira. Users can create, organize, and track their tasks in a visually intuitive way. The main feature of TaskTrack is its task boards, where tasks are categorized into columns, and users can easily drag and drop them to show their progress or mark them as completed.",
     project__goal_title: "Project Purpose And Goal",
     project__goal_desc:
-      "The primary goal of this project was to design and build a responsive e-commerce website that provides a seamless shopping experience for furniture enthusiasts. I aimed to create an intuitive and visually pleasing platform where users could browse and purchase furniture products. The project's purpose was to develop a real-world application that applies front-end technologies to solve user-centric challenges.",
+      "The main goal of TaskTrack was to provide a flexible and user-friendly task management solution. It is a platform where users could effortlessly organize their tasks, set priorities, and track progress, all in one place. TaskTrack is designed to enhance productivity and collaboration by offering a clear and structured way to manage tasks.",
     project__webstack__title: "Web Stack and Explanation",
     project__webstack__desc:
-      "This project was built using a stack of modern web development technologies: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase. Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions. It provided a clear structure for handling application data and user interactions. Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design. It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
-    project__thought_title: "Problems and Thought Process:",
-    project__thought_desc:
-      "Throughout the development of this project, I encountered various challenges and made thoughtful decisions to address them. These included: Designing a responsive layout: Tailwind CSS was utilized to create a responsive design, ensuring that the application is accessible and visually appealing on different devices. State management: I used Redux Toolkit to manage the application's state effectively, enhancing data flow and interaction within the user interface. User experience: Thoughtful consideration was given to the user experience, including implementing features like product search, filtering, and a shopping cart to make the shopping process more convenient.",
+      "For TaskTrack, I used the following technologies to create a smooth and visually appealing experience: React: React was the core library for creating dynamic and interactive user interfaces. It allowed for component-based development, ensuring a modular and maintainable codebase.Redux Toolkit: Redux Toolkit was used for state management, enabling the application to maintain consistent data and user interactions.It provided a clear structure for handling application data and user interactions.Tailwind CSS: Tailwind CSS was chosen for styling to ensure a responsive, visually appealing design.It allowed for efficient customization of the user interface and responsiveness on various screen sizes.",
     project__lesson_title: "Lessons Learned:",
     project__lesson_desc:
-      "Building this furniture e-commerce project was a valuable learning experience. Some key lessons learned from this project include: Enhanced proficiency in React and Redux Toolkit for creating interactive and data-driven web applications. Gained practical experience in crafting a responsive and visually appealing user interface using Tailwind CSS. Improved problem-solving skills by tackling real-world challenges in e-commerce development, including cart management and product display.",
+      "During the development of FitGuide, I gained valuable insights into user experience.I gained insights into how to design an intuitive and efficient platform for users to manage their tasks effectively.I also learned to work with React effectively, improving my skills in creating informative and interactive web applications",
   },
 ];

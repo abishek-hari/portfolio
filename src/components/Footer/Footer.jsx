@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='container section footer__container'>
       <div className='footer__row'>
-        <div className='footer__logo'>@bishek</div>
+        <div className='footer__logo'>Abishek</div>
         <div className='footer__links'>
           <div className='footer__icons'>
             <AiFillGithub className='icon' />

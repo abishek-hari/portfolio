@@ -15,6 +15,14 @@
 }
 .header__logo {
   font-size: var(--size-3xl);
+  background-color: var(--clr-purple);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  display: grid;
+  place-content: center;
+  font-size: var(--size-3xl);
+  font-weight: var(--font-semi-bold);
 }
 .header__links {
   display: none;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Collabration, Footer, Projects } from "../components/Components";
+import { Collabration, Footer, Projects } from "../components/components";
 
 const ProjectDetails = () => {
   return (
