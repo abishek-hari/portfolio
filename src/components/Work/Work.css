@@ -13,15 +13,17 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2.5rem;
+  padding-top: 2rem;
 }
 .work__img {
   width: 100%;
-  height: 15rem;
-  object-fit: cover;
+  min-height: 14rem;
+  object-fit: fill;
   border-radius: 1rem;
+  border: 1px solid var(--clr-base);
 }
 .work__info {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 .work__info-title {
   font-size: var(--size-2xl);
@@ -83,6 +85,6 @@
     line-height: 1.7;
   }
   .work__img {
-    height: 18rem;
+    height: 20rem;
   }
 }

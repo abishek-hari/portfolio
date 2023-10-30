@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import "./Projects.css";
-import PhoneImg from "../../assets/phone.jpg";
-import classImg from "../../assets/class.jpg";
 import { projects, singleProject } from "../../data";
 import { useParams, Link } from "react-router-dom";
 import { FaReact, FaAngleDoubleRight } from "react-icons/fa";
@@ -27,6 +25,8 @@ const Projects = () => {
   const {
     title,
     img,
+    githubLink,
+    websiteLink,
     description,
     project__goal_title,
     project__goal_desc,
@@ -45,13 +45,21 @@ const Projects = () => {
           <div className='project__preview'>
             <button className='project__stack-btn'>
               <AiFillGithub className='project__icon' />
-              <a href='#' className='project__icon-name'>
+              <a
+                href={githubLink}
+                target='_blank'
+                className='project__icon-name'
+              >
                 github
               </a>
             </button>
             <button className='project__stack-btn'>
               <AiFillGithub className='project__icon' />
-              <a href='#' className='project__icon-name'>
+              <a
+                href={websiteLink}
+                target='_blank'
+                className='project__icon-name'
+              >
                 View Site
               </a>
             </button>
@@ -82,10 +90,10 @@ const Projects = () => {
           <p className='project__webstack-desc'>{project__webstack__desc}</p>
         </div>
       </div>
-      <div className='project__img-grid project-section'>
-        <img src={PhoneImg} alt='' className='grid__first' />
-        <img src={classImg} alt='' className='grid__second' />
-      </div>
+      {/* <div className='project__img-grid project-section'>
+        <img src={imgOne} alt='' className='grid__one' />
+        <img src={imgTwo} alt='' className='grid__one' />
+      </div> */}
       <div className='project__lessons-section project-section'>
         <h2 className='project__lesson-title'>{project__lesson_title}</h2>
         <p className='project__lesson-desc'>{project__lesson_desc}</p>

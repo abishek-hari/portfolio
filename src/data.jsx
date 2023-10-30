@@ -1,6 +1,12 @@
-import PhoneImg from "./assets/phone.jpg";
-import ZedenImg from "./assets/zedenImg.png";
-import fitzenImg from "./assets/fitzenImg.png";
+import ZedenHeroImg from "./assets/Zeden-hero-img.png";
+import FitzenHeroImg from "./assets/Fitzen-hero-img.png";
+import TaskTrackHeroImg from "./assets/Tasktrack-hero-img.png";
+import ZedenOne from "./assets/Zeden-1.png";
+import ZedenTwo from "./assets/Zeden-2.png";
+import FitzenOne from "./assets/Fitzen-1.png";
+import FitzenTwo from "./assets/Fitzen-2.png";
+import TaskTrackOne from "./assets/Tasktrack-1.png";
+import TaskTrackTwo from "./assets/Tasktrack-2.png";
 
 export const links = [
   { id: 1, href: "#skills", text: "skills" },
@@ -11,19 +17,19 @@ export const links = [
 export const projects = [
   {
     id: 1,
-    img: ZedenImg,
+    img: ZedenHeroImg,
     title: "Zeden",
     desc: "Zeden is an ecommerce website I developed, focusing on the furniture market and  designed it to be super user-friendly with a clean and easy-to-navigate layout",
   },
   {
     id: 2,
-    img: fitzenImg,
+    img: FitzenHeroImg,
     title: "Fitzen",
     desc: "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users.",
   },
   {
     id: 3,
-    img: PhoneImg,
+    img: TaskTrackHeroImg,
     title: "Tasktrack",
     desc: "TaskTrack is a task management website where Users can create, organize, and track their tasks in a visually intuitive way.And users can easily drag and drop them to show their progress or mark them as completed.",
   },
@@ -32,7 +38,11 @@ export const projects = [
 export const singleProject = [
   {
     id: 1,
-    img: ZedenImg,
+    img: ZedenHeroImg,
+    imgOne: ZedenOne,
+    imgTwo: ZedenTwo,
+    githubLink: "https://github.com/abishek-hari/Zeden",
+    websiteLink: "https://zeden.netlify.app/",
     title: "Zeden",
     description:
       "Zeden is an ecommerce website I developed, focusing on the furniture market.It's like an online furniture store where you can shop for sofas, beds, and other home furnishings.I designed it to be super user-friendly with a clean and easy-to-navigate layout",
@@ -48,7 +58,11 @@ export const singleProject = [
   },
   {
     id: 2,
-    img: fitzenImg,
+    img: FitzenHeroImg,
+    imgOne: FitzenOne,
+    imgTwo: FitzenTwo,
+    githubLink: "https://github.com/abishek-hari/Fitzen",
+    websiteLink: "https://fitzens.netlify.app/",
     title: "Fitzen",
     description:
       "Fitzen is a website dedicated to exercise and fitness. It's a place to learn about various exercises and workouts. The unique feature of Fitzen is that it provides step-by-step procedures for each exercise, making it easy for users to follow along and get the most out of their workouts.",
@@ -64,7 +78,11 @@ export const singleProject = [
   },
   {
     id: 3,
-    img: PhoneImg,
+    img: TaskTrackHeroImg,
+    imgOne: TaskTrackOne,
+    imgTwo: TaskTrackTwo,
+    githubLink: "https://github.com/abishek-hari/Tasktrack",
+    websiteLink: "https://tasktracks.netlify.app/",
     title: "Tasktrack",
     description:
       "TaskTrack is a task management website that's inspired by popular tools like Trello and Jira. Users can create, organize, and track their tasks in a visually intuitive way. The main feature of TaskTrack is its task boards, where tasks are categorized into columns, and users can easily drag and drop them to show their progress or mark them as completed.",
