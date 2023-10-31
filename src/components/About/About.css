@@ -6,16 +6,17 @@
 }
 .about__box {
   padding: 2rem 1rem;
-  border: 1px solid var(--clr-purple);
+  border: 1px solid var(--clr-base);
   border-radius: 1rem;
-  background-color: var(--clr-light);
+  /* background-color: var(--clr-light); */
 }
 .about__title {
   text-align: center;
   font-size: var(--size-3xl);
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--clr-span);
+  /* color: var(--clr-span); */
+  color: var(--clr-medium);
 }
 .about__info-container {
   display: grid;
@@ -31,7 +32,8 @@
 }
 .about__desc {
   font-size: var(--size-xs);
-  color: var(--clr-navy);
+  /* color: var(--clr-navy); */
+  color: var(--clr-base);
   line-height: var(--wider-lg);
   max-width: 65ch;
   margin-bottom: 1rem;

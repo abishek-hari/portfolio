@@ -10,8 +10,10 @@
   letter-spacing: 1px;
 }
 .skills__box {
-  background-color: var(--clr-light);
-  border-radius: 2.5rem;
+  /* background-color: var(--clr-light); */
+  /* border-radius: 2.5rem; */
+  border: 1px solid var(--clr-base);
+  border-radius: 0.3rem;
 }
 .skill__info {
   display: grid;
@@ -26,12 +28,12 @@
   gap: 1.5rem;
 }
 .skill-icon {
-  font-size: var(--size-2xl);
+  font-size: var(--size-xl);
 }
 .skills {
   font-size: var(--size-xs);
   font-weight: var(--font-medium);
-  color: var(--clr-navy);
+  color: var(--clr-medium);
   text-transform: uppercase;
 }
 

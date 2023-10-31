@@ -14,7 +14,7 @@ const About = () => {
               focus on intuitive design.
             </p>
             <p className='about__desc'>
-              I've worked with scripcted language and frameworks and with
+              I've worked with scripted language and frameworks and with
               consistency I have raised my standards for whats expected of any
               web application
             </p>

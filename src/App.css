@@ -6,7 +6,9 @@
   --clr-medium: #333333;
   --clr-base: #757575;
   --clr-purple: #a0a5fe;
-  --clr-span: rgb(188, 191, 255);
+  /* --clr-span: rgb(188, 191, 255); */
+  /* --clr-span: #209cee; */
+  --clr-span: #42a7eb;
   --clr-light: rgb(218, 219, 255);
   --clr-navy: rgb(0, 0, 128);
 

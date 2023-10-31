@@ -28,7 +28,7 @@
   gap: 0.5rem;
   font-size: var(--size-xl);
   cursor: pointer;
-  color: var(--clr-purple);
+  color: var(--clr-span);
 }
 .hero__info {
   padding: 1.5rem 0.3rem;

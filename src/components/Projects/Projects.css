@@ -28,13 +28,15 @@
   gap: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
-  background-color: var(--clr-purple);
+  background-color: var(--clr-span);
+  color: var(--clr-primary);
 }
 .project__icon {
   font-size: var(--size-sm);
 }
 .project__icon-name {
   font-size: var(--size-xs);
+  color: var(--clr-primary);
 }
 .tech__stack {
   font-size: var(--size-lg);
@@ -54,13 +56,10 @@
   place-items: center;
 }
 .project__main-img {
-  /* max-width: 100%;
-  height: 10rem;
-  object-fit: contain; */
   width: 100%;
   min-height: 14rem;
   object-fit: fill;
-  border-radius: 1rem;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.2);
 }
 .project__purpose-title,
 .project__webstack-title,
@@ -80,27 +79,23 @@
   letter-spacing: var(--letter-space-sm);
 }
 .project__webstack-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-  gap: 1.5rem;
-  background-color: var(--clr-light);
-  border-radius: 1rem;
-  padding: 3rem 1.5rem;
+  margin: 0;
 }
 .project__webstack-title {
-  color: var(--clr-purple);
+  color: var(--clr-medium);
 }
 .project__webstack-desc {
-  color: var(--clr-navy);
+  color: var(--clr-base);
+  white-space: pre-wrap;
+  overflow: auto;
+  text-align: justify;
 }
 .webstack__icons {
-  display: flex;
-  gap: 1.5rem;
+  display: none;
 }
 .web__icons {
   font-size: var(--size-3xl);
-  color: var(--clr-purple);
+  color: var(--clr-span);
 }
 /* .project__img-grid {
   display: grid;
@@ -143,9 +138,6 @@
 }
 
 @media (min-width: 768px) {
-  .project__webstack-section {
-    grid-template-columns: 6fr 6fr;
-  }
   .project__purpose-title,
   .project__webstack-title,
   .project__lesson-title,
@@ -165,7 +157,7 @@
     padding: 2rem 3rem;
   }
   .project__main-img {
-    height: 30rem;
+    height: 29.5rem;
   }
   .project__title {
     font-size: var(--size-3xl);
@@ -179,5 +171,19 @@
   }
   .project__img-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .webstack__icons {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .project__webstack-section {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    place-items: center;
+    gap: 1.5rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid var(--clr-base);
+    margin: 1rem 0;
   }
 }
