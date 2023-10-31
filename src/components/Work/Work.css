@@ -30,7 +30,7 @@
   letter-spacing: 1px;
 }
 .work__info-desc {
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   line-height: 2;
   color: var(--clr-base);
   letter-spacing: 0.5px;

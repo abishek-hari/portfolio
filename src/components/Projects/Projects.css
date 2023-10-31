@@ -10,7 +10,7 @@
 }
 .project__description {
   max-width: 70ch;
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   color: var(--clr-base);
   letter-spacing: var(--letter-space-sm);
   padding: 1rem 0;
@@ -35,7 +35,7 @@
   font-size: var(--size-sm);
 }
 .project__icon-name {
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   color: var(--clr-primary);
 }
 .tech__stack {
@@ -46,7 +46,7 @@
 }
 .stack-name {
   color: var(--clr-base);
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   letter-spacing: var(--letter-space-sm);
   text-transform: uppercase;
   padding: 0.5rem 0.2rem 0;
@@ -73,7 +73,7 @@
 .project__webstack-desc,
 .project__lesson-desc {
   max-width: 70ch;
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   color: var(--clr-base);
   line-height: var(--wider-lg);
   letter-spacing: var(--letter-space-sm);

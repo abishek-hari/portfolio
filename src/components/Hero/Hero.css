@@ -42,7 +42,7 @@
 }
 .hero__desc {
   max-width: 45ch;
-  font-size: var(--size-sm);
+  font-size: var(--size-xsm);
   color: var(--clr-medium);
   line-height: 2;
 }

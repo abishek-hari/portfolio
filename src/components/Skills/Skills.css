@@ -31,7 +31,7 @@
   font-size: var(--size-xl);
 }
 .skills {
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   font-weight: var(--font-medium);
   color: var(--clr-medium);
   text-transform: uppercase;

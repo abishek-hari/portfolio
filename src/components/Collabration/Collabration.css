@@ -13,7 +13,7 @@
   letter-spacing: 1px;
 }
 .collab__mail {
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   font-weight: 700;
   color: black;
   position: relative;

@@ -31,7 +31,7 @@
   padding: 1rem 0.3rem 0;
 }
 .about__desc {
-  font-size: var(--size-xs);
+  font-size: var(--size-xsm);
   /* color: var(--clr-navy); */
   color: var(--clr-base);
   line-height: var(--wider-lg);
