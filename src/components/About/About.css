@@ -5,7 +5,7 @@
   border-radius: 1rem;
 }
 .about__box {
-  padding: 2rem 1rem;
+  padding: 2rem 0.3rem;
   border: 1px solid var(--clr-base);
   border-radius: 1rem;
   /* background-color: var(--clr-light); */
@@ -51,6 +51,9 @@
   .about__info-container {
     grid-template-columns: 7fr 4fr;
   }
+  .about__box {
+    padding: 2rem 0.5rem;
+  }
 }
 /* md */
 @media (min-width: 768px) {
@@ -59,6 +62,9 @@
   }
   .about__desc {
     font-size: var(--size-sm);
+  }
+  .about__box {
+    padding: 2rem 1rem;
   }
 }
 /* lg */
