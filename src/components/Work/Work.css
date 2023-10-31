@@ -19,7 +19,9 @@
   width: 100%;
   min-height: 14rem;
   object-fit: fill;
-  border: 1px solid var(--clr-base);
+  /* border: 1px solid var(--clr-base); */
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
 }
 .work__info {
   margin: 1.5rem 0;

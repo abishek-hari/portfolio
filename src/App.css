@@ -5,10 +5,18 @@
   --clr-primary: #f8f8fc;
   --clr-medium: #333333;
   --clr-base: #757575;
+  --clr-span-logo: #617bff;
+  --clr-span: #869aff;
+  --clr-span-bg: #98aaff;
+  --clr-span-text: #112484;
+
   --clr-purple: #a0a5fe;
   /* --clr-span: rgb(188, 191, 255); */
   /* --clr-span: #209cee; */
-  --clr-span: #42a7eb;
+  /* --clr-span: #42a7eb; */
+  --clr-span-1: #8b9fff;
+  --clr-span-2: #0b208b;
+  --clr-span-3: #889cff;
   --clr-light: rgb(218, 219, 255);
   --clr-navy: rgb(0, 0, 128);
 

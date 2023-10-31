@@ -15,7 +15,7 @@
 }
 .header__logo {
   font-size: var(--size-3xl);
-  background-color: #209cee;
+  background-color: var(--clr-span-logo);
   width: 3rem;
   height: 3rem;
   border-radius: 2.5rem;

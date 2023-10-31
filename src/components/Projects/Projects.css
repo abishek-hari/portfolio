@@ -150,9 +150,6 @@
     font-size: var(--size-sml);
     line-height: var(--wider-sm);
   }
-  .web__icons {
-    font-size: var(--size-6xl);
-  }
   .project__img-box {
     padding: 2rem 3rem;
   }
@@ -173,17 +170,31 @@
     grid-template-columns: 1fr 1fr;
   }
   .webstack__icons {
-    display: flex;
+    display: grid;
+    place-content: center;
     gap: 1.5rem;
+    width: 15rem;
+  }
+  .web__icons {
+    font-size: var(--size-7xl);
+    background-color: var(--clr-span-bg);
+    color: var(--clr-primary);
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+    padding: 1rem 0;
+    width: 12rem;
   }
   .project__webstack-section {
     display: grid;
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 5fr 7fr;
     place-items: center;
     gap: 1.5rem;
     border-radius: 1rem;
     padding: 1.5rem;
     border: 1px solid var(--clr-base);
     margin: 1rem 0;
+  }
+  .project__webstack-title {
+    text-align: center;
   }
 }
